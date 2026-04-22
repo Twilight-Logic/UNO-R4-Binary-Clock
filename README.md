@@ -15,15 +15,15 @@ Phillipe explains that:
 
 "The goal was to build a simple end-to-end example demonstrating the dual-core architecture of UNO Q" including:
 
-Linux → Bridge → STM32 → LED Matrix
-Linux → WebUI (Binary Clock)
++ Linux → Bridge → STM32 → LED Matrix
++ Linux → WebUI (Binary Clock)
 
 The project shows how to:
 
-• use Linux system time as the single time source
-• send periodic updates to the STM32 via Bridge RPC
-• display a digital clock on the LED matrix
-• build a WebUI binary clock using the WebUI brick
++ use Linux system time as the single time source
++ send periodic updates to the STM32 via Bridge RPC
++ display a digital clock on the LED matrix
++ build a WebUI binary clock using the WebUI brick
 
 The WebUI allows starting and stopping the matrix display, and the architecture clearly separates Linux logic from STM32 rendering."
 
@@ -43,8 +43,8 @@ The default time zone and HTTP server port, along with the usual WiFi credential
 
 As with the goal stated by Phillipe, my goal was also to learn, but in this case with reference to the UNO R4 WiFi rather than the UNO Q. I wanted to understand how the matrix display worked and how to program the board using the WiFiS3 library and access its WiFi features. In this case however it is rather simpler:
 
-RA4M1 → Matrix display
-RA4M1 → Bridge → ESP32
++ RA4M1 → Matrix display
++ RA4M1 → Bridge → ESP32
 
 As with the original project, the Web display works in exactly the same way and allows the matrix display to be started and stopped and demonstrates a possible implementation of a Web GUI without a specific library.
 
