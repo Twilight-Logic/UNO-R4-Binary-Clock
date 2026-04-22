@@ -1,6 +1,6 @@
 
-#define SECRET_SSID "Voyager2"
-#define SECRET_PASS "MountOfOlives"
+#define SECRET_SSID "**********"
+#define SECRET_PASS "**********"
 
 //#define NTP_TIME_ZONE "GMT0BST,M3.5.0/1,M10.5.0"
 #define NTP_CONNECT_TIME 120000    // 2 minutes
